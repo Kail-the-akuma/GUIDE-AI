@@ -1,0 +1,11 @@
+# Agent Guidelines for GUIDE
+
+This document instructs autonomous agents on how to interact with this repository.
+
+## Architecture Boundaries
+- Do not reference `Guide.Validators` or `Guide.Memory` in `Guide.SemanticEngine`.
+- Maintain complete offline determinism (no LLM API dependencies).
+
+## Working with Database & State
+- SQLite connection string: `Busy Timeout=5000;Cache=Shared;Mode=ReadWriteCreate;`
+- Read state from the active Git branch state file under `.guide/states/`.

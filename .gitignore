@@ -1,0 +1,25 @@
+## Build outputs
+[Bb]in/
+[Oo]bj/
+/publish/
+
+## IDE and user settings
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Temporary files & logs
+*.db
+*.log
+.guide/
+.agents/
+.guide/states/
+*.db-journal
+*.db-shm
+*.db-wal
+communications/
+CODING_PATTERNS.md
+

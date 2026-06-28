@@ -1,0 +1,10 @@
+{
+  "rules": [
+    "The projects Guide.SemanticEngine, Guide.Memory, and Guide.Validators must ONLY reference Guide.Core.",
+    "Cross-coupling between subprojects is strictly prohibited.",
+    "SQLite connection string must contain: 'Busy Timeout=5000;Cache=Shared;Mode=ReadWriteCreate;'.",
+    "Store only relative paths from the Git repository root.",
+    "Read/write feature state from '.guide/states/{branchName}.json' where branch name is normalized.",
+    "State transitions must adhere to the FeatureStateMachine."
+  ]
+}
